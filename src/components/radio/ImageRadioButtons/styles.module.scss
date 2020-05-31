@@ -1,0 +1,41 @@
+.radioButtonImageBox {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+   
+  .svgResizer {
+    position: relative;
+    width: 100%;
+    padding-bottom: 86%;
+
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  span {
+    display: inline-block;
+    margin-top: 6px;
+  }
+}
+
+.radioGroup {
+  width: calc(100% - 40px);
+  min-width: 344px;
+  display: flex;
+  justify-content: center;
+
+  .radioButton {
+    max-width: 160px;
+    flex: 1 1 0;
+  }
+
+  .radioButton + .radioButton {
+    margin-left: 20px;
+  }
+}

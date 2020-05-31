@@ -1,0 +1,75 @@
+@import "../../common.scss";
+
+$horizonPadding: 10px;
+$iconFontSize: 26px;
+$leftPaddingBase: $horizonPadding * 2 + $iconFontSize;
+
+.inputBox {
+  position: relative;
+  display: inline-flex;
+  align-items: center;  
+  background-color: #fff;
+
+  .icon {
+    position: absolute;
+    color: $lightGrey;
+    left: 10px;
+    font-size: $iconFontSize;
+    line-height: $iconFontSize;
+  }
+
+  .input {
+    border: 1px solid $lightGrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 16px $horizonPadding;
+    padding-left: $leftPaddingBase;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    z-index: 10;
+
+    &::placeholder {
+      transform: translateX(9999px)
+    }
+  }
+
+  label.placeholder {
+    position: absolute;
+    left: $leftPaddingBase;
+    margin: auto 0;
+    color: $lightGrey;
+    z-index: 0;
+    transition: transform .1s ease-out, background-color .1s ease-out;
+  }
+
+  .input:focus,
+  .input:not(:placeholder-shown) {
+    border-color: $darkBlue;
+    box-shadow: 0 0 0 .5px $darkBlue;
+
+    & + label.placeholder {
+      font-size: 10px;
+      color: #fff;
+      border-radius: 4px;
+      padding: 3px 7px;
+      z-index: 11;
+      background-color: $darkBlue;
+      transform: translate(-34px, -26px);
+      transition: transform .1s ease-in, background-color .1s ease-out;
+    }
+  }
+
+  .rightBlock {
+    position: absolute;
+    right: $horizonPadding;
+    z-index: 11;
+  }
+}
+
+.linkForgot {
+  color: $darkBlue;
+  line-height: $iconFontSize;
+  padding-left: $horizonPadding;
+  border-left: 1px solid $lightGrey;
+}

@@ -1,0 +1,31 @@
+$lightGrey: #cccccc;
+$lightBlue: #b8edfc;
+$darkBlue: #13bbed;
+$darkBlueShadow: 0 3px 3px 1px rgba(19, 187, 237, 0.5);
+
+body, html,
+:global(#root) {
+  height: 100%;
+  margin: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: $darkBlue;
+  text-decoration: none;
+}
+
+button.primary {
+  background-color: $darkBlue;
+  color: #fff;
+  font-size: 16px;
+  vertical-align: center;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 34px;
+  cursor: pointer;
+  &:focus {
+    outline: 0;
+  }
+}
