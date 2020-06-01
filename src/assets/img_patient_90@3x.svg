@@ -4,9 +4,9 @@
     <title>img_patient_90@3x</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="29" height="5"></rect>
-        <path d="M35.622611,0.256091201 C41.9061695,0.256091201 47,5.34610769 47,11.6280456 L47,23 L39,22.9990912 L39,38.0092049 C39,39.1086907 38.1056623,40 37.0017862,40 L9.99821383,40 C8.8946308,40 8,39.1017876 8,38.0092049 L8,22.9990912 L1.13686838e-13,23 L1.13686838e-13,11.6280456 C1.13686838e-13,5.34748861 5.0968669,0.256091201 11.377389,0.256091201 L35.622611,0.256091201 Z" id="path-3"></path>
-        <path d="M0,0 L10.5356265,0 L10.5356265,5.95104474 C10.5356265,8.85694156 8.17122629,11.2126364 5.26781327,11.2126364 L5.26781327,11.2126364 C2.35848034,11.2126364 0,8.86210036 0,5.95104474 L0,0 Z" id="path-5"></path>
+        <rect id="path-2" x="0" y="0" width="29" height="5"></rect>
+        <path d="M35.622611,0.256091201 C41.9061695,0.256091201 47,5.34610769 47,11.6280456 L47,23 L39,22.9990912 L39,38.0092049 C39,39.1086907 38.1056623,40 37.0017862,40 L9.99821383,40 C8.8946308,40 8,39.1017876 8,38.0092049 L8,22.9990912 L1.13686838e-13,23 L1.13686838e-13,11.6280456 C1.13686838e-13,5.34748861 5.0968669,0.256091201 11.377389,0.256091201 L35.622611,0.256091201 Z" id="path-4"></path>
+        <path d="M0,0 L10.5356265,0 L10.5356265,5.95104474 C10.5356265,8.85694156 8.17122629,11.2126364 5.26781327,11.2126364 L5.26781327,11.2126364 C2.35848034,11.2126364 0,8.86210036 0,5.95104474 L0,0 Z" id="path-6"></path>
     </defs>
     <g id="Portofolio-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Multiple-login" transform="translate(-418.000000, -120.000000)">
@@ -20,15 +20,15 @@
                         <g id="uniform" transform="translate(20.648649, 34.306986)">
                             <g id="Oval-5" transform="translate(10.000000, 39.000000)">
                                 <mask id="mask-2" fill="white">
-                                    <use xlink:href="#path-1"></use>
+                                    <use xlink:href="#path-2"></use>
                                 </mask>
-                                <use id="Mask" fill="#1980BA" xlink:href="#path-1"></use>
+                                <use id="Mask" fill="#1980BA" xlink:href="#path-2"></use>
                             </g>
                             <g id="Rectangle-9" transform="translate(1.000000, 0.000000)">
                                 <mask id="mask-4" fill="white">
-                                    <use xlink:href="#path-3"></use>
+                                    <use xlink:href="#path-4"></use>
                                 </mask>
-                                <use id="Mask" fill="#6CBAE6" xlink:href="#path-3"></use>
+                                <use id="Mask" fill="#6CBAE6" xlink:href="#path-4"></use>
                                 <rect fill="#9FD2EF" opacity="0.266474185" mask="url(#mask-4)" x="-4.64864865" y="-1.30698583" width="55" height="8"></rect>
                                 <rect id="Rectangle-9-Copy" fill="#9FD2EF" opacity="0.271173007" mask="url(#mask-4)" x="-4.64864865" y="10.6930142" width="55" height="8"></rect>
                                 <rect id="Rectangle-9-Copy-4" fill="#9FD2EF" opacity="0.505944293" mask="url(#mask-4)" transform="translate(40.851351, 14.693014) rotate(90.000000) translate(-40.851351, -14.693014) " x="13.3513514" y="12.6930142" width="55" height="4"></rect>
@@ -48,9 +48,9 @@
                         </g>
                         <g id="neck" transform="translate(39.732187, 29.328285)">
                             <mask id="mask-6" fill="white">
-                                <use xlink:href="#path-5"></use>
+                                <use xlink:href="#path-6"></use>
                             </mask>
-                            <use id="Mask" fill="#FDDFD1" xlink:href="#path-5"></use>
+                            <use id="Mask" fill="#FDDFD1" xlink:href="#path-6"></use>
                             <g id="neck-copy" mask="url(#mask-6)" fill="#FCCAB4">
                                 <g transform="translate(0.000000, -3.297834)" id="Rectangle-5">
                                     <path d="M0,0 L10.5356265,0 L10.5356265,5.95104474 C10.5356265,8.85694156 8.17122629,11.2126364 5.26781327,11.2126364 L5.26781327,11.2126364 C2.35848034,11.2126364 0,8.86210036 0,5.95104474 L0,0 Z"></path>
